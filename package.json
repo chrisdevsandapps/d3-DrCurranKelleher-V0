@@ -1,0 +1,43 @@
+{
+  "name": "d3drcurrankelleher-v0",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "playground": "node playground.js",
+    "devserve-d303": "webpack serve --mode=development --config ./d303/webpack-config-d303.js",
+    "build-d303": "webpack --mode=production --config ./d303/webpack-config-d303.js",
+    "devserve-d304": "webpack serve --mode=development --config ./d304/webpack-config-d304.js",
+    "build-d304": "webpack --mode=production --config ./d304/webpack-config-d304.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdevsandapps/d3-DrCurranKelleher-V0.git"
+  },
+  "author": "chris the legend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdevsandapps/d3-DrCurranKelleher-V0/issues"
+  },
+  "homepage": "https://github.com/chrisdevsandapps/d3-DrCurranKelleher-V0#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+},
+  "dependencies": {
+    "d3": "6.6.1",
+    "axios": "^0.26.1",
+    "uuid": "^8.3.2"
+  }
+}

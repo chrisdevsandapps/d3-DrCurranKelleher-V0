@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="586px" height="470px" viewBox="0 0 586 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="21.4012633%" fx="50%" fy="21.4012633%" r="100%" gradientTransform="translate(0.500000,0.214013),scale(0.802048,1.000000),rotate(90.000000),translate(-0.500000,-0.214013)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F91C1C" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-107.000000, -65.000000)" fill="url(#radialGradient-1)" fill-rule="nonzero">
+            <path d="M363.868164,199.373255 C377.494022,195.865596 391.779144,194 406.5,194 C416.573048,194 426.442075,194.873521 436.035461,196.548944 C436.011864,195.535487 436,194.519129 436,193.5 C436,122.53141 493.53141,65 564.5,65 C635.46859,65 693,122.53141 693,193.5 C693,262.08255 639.272095,318.116275 571.610879,321.806579 C575.128778,335.450976 577,349.756965 577,364.5 C577,458.66455 500.66455,535 406.5,535 C312.33545,535 236,458.66455 236,364.5 C236,349.779144 237.865596,335.494022 241.373255,321.868164 C239.426473,321.955741 237.468405,322 235.5,322 C164.53141,322 107,264.46859 107,193.5 C107,122.53141 164.53141,65 235.5,65 C306.46859,65 364,122.53141 364,193.5 C364,195.468405 363.955741,197.426473 363.868164,199.373263 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

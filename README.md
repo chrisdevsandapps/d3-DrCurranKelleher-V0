@@ -3,18 +3,35 @@
 # Data Visualization with D3 – Full Course for Beginners [2022]
 
 
+<details>
+<summary>notes</summary>
+
 Learn data visualization with D3.js. D3 is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS.
 
 This course is an edited collection of live streams taught by Dr. Curran Kelleher. He is one of the top D3 instructors in the world. He has a Ph.D. in Computer Science, and has taught at universities including MIT.
 
-https://www.youtube.com/watch?v=xkBheRZTkaw
+
+youtube link:
+
+- https://www.youtube.com/watch?v=xkBheRZTkaw
 
 
 
-https://vizhub.com/forum/t/get-it-right-in-black-white-index/110
+forum and lesson link at vizhub:
+
+- https://vizhub.com/forum/t/get-it-right-in-black-white-index/110
+
+- https://vizhub.com/forum/c/get-it-right/10
 
 
-https://vizhub.com/forum/c/get-it-right/10
+
+data visualization github resource page:
+
+- https://github.com/datavis-tech/awesome-dataviz-education
+
+</details>
+
+
 
 
 <details>
@@ -37,20 +54,68 @@ https://vizhub.com/forum/c/get-it-right/10
 <br>
 <br>
 
+
+
+
+
+
+
+
+
+
 <!-- ######################################### -->
 <!-- ######################################### -->
 <!-- ######################################### -->
 <!-- ######################################### -->
 <!-- ######################################### -->
 
-### d302 - SolLewitt Vanilla Js
+<!-- ## d303 - SolLewitt D3.js
 
 <details>
 <summary>notes for this folder/topic</summary>
 
 <br>
 
-### timeline for this topic: https://youtu.be/xkBheRZTkaw?t=8209
+### timeline for this topic: 
+
+- https://youtu.be/xkBheRZTkaw?t=12765
+
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+</details> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ######################################### -->
+<!-- ######################################### -->
+<!-- ######################################### -->
+<!-- ######################################### -->
+<!-- ######################################### -->
+
+## d302 - SolLewitt Vanilla Js
+
+<details>
+<summary>notes for this folder/topic</summary>
+
+<br>
+
+### timeline for this topic: 
+
+- https://youtu.be/xkBheRZTkaw?t=8209
 
 <br>
 
@@ -84,13 +149,23 @@ index04.html
 
 </details>
 
+
+
+
+
+
+
+
+
+
+
 <!-- ######################################### -->
 <!-- ######################################### -->
 <!-- ######################################### -->
 <!-- ######################################### -->
 <!-- ######################################### -->
 
-### d301 - svg fundamentals
+## d301 - svg fundamentals
 
 <details>
 <summary>notes for this folder/topic</summary>

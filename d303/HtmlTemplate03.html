@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- <link rel="stylesheet" href="./d303-mainstyle.css"> -->
+    <style>
+.buttonClass {
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    background-color: blue;
+    color: yellow;
+    border: 2px solid yellow;
+    border-radius: 7px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.forDisplayToggle {
+    display: none;
+}
+.forButtonDisplayToggle {
+    background-color: gray;
+    border: 2px solid rgb(247, 247, 192);
+}
+    </style>
+</head>
+<body>
+    
+    
+
+    
+<!-- #################################### -->
+<div>
+    <div id="btn1ID" class="buttonClass">1</div>
+    <div id="btn2ID" class="buttonClass">2</div>
+    <div id="btn3ID" class="buttonClass">3</div>
+</div>
+<!-- #################################### --><br><br><br>
+<div class="container1">
+    <!-- <h3>button toggle test</h3> -->
+    <div id="root3"></div>
+    <div id="root2"></div>
+    <div id="root1"></div>
+</div>
+<!-- #################################### --><br><br><br>
+<div class="imageDiv1">
+    <h3 style="color:yellow;">loading img-tag and its image from DOM</h3>
+    <img alt="sample image kung ma load ni webpack" id="imageTest1">
+</div>
+<!-- #################################### --><br><br><br>
+<div class="imageDiv2">
+    <h3 style="color:blue;">loading image from css-BG of this div</h3>
+    
+</div>
+<!-- #################################### --><br><br><br>
+<div class="imageDiv1">
+    <h3 style="color:yellow;">loading svg from DOM via img-tag</h3>
+    <img alt="sample svg kung ma load ni webpack" id="svgTest1">
+</div>
+<!-- #################################### --><br><br><br>
+<div class="container">
+    <img alt="laughing svg icon image" id="laughImg">
+    <h3>Dont Laugh Challenge</h3>
+    <div id="joke" class="joke"></div>
+    <button id="jokeBtn" class="btn">Get Another Joke</button>
+</div>
+<!-- #################################### --><br><br><br>
+<div id="uuidDiv1" class="imageDiv1">
+    <h3 style="color:yellow;">loading uuid</h3>
+</div>
+<!-- #################################### --><br><br><br>
+<div id="esModuleTest" class="imageDiv1">
+    <h3 style="color:yellow;">es module loading test</h3>
+</div>
+<!-- #################################### --><br><br><br>
+<div id="commonJsTest" class="imageDiv1">
+<h3 style="color:yellow;">commonJs loading test</h3>
+</div>
+
+
+<script>
+
+const btn1 = document.querySelector('#btn1ID')
+btn1.addEventListener('click', function() {
+document.querySelector('#root1').classList.toggle('forDisplayToggle')
+btn1.classList.toggle('forButtonDisplayToggle')
+})
+const btn2 = document.querySelector('#btn2ID')
+btn2.addEventListener('click', function() {
+    document.querySelector('#root2').classList.toggle('forDisplayToggle')
+    btn2.classList.toggle('forButtonDisplayToggle')
+})
+const btn3 = document.querySelector('#btn3ID')
+btn3.addEventListener('click', function() {
+document.querySelector('#root3').classList.toggle('forDisplayToggle')
+btn3.classList.toggle('forButtonDisplayToggle')
+})
+
+
+</script>
+
+
+    
+</body>
+ 
+</html>
