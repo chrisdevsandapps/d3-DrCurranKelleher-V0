@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d3-01-1</title>
+    <link rel="stylesheet" href="./d301-mainstyle.css">
+    <style>
+.svg1 {
+    background-color: rgb(189, 246, 82);
+    width: 50vw;
+    height: 50vh;
+}
+
+.red2 {
+    fill: rgb(237, 255, 71);
+    stroke: rgb(7, 36, 67);
+    stroke-width: 10px;
+    transition: all 3000ms;
+}
+.red2:hover {
+    fill: rgb(239, 100, 19);
+    stroke-width: 30px;
+}
+
+    </style>
+</head>
+<body>
+
+    <h1>svg fundamentals</h1>
+
+    
+<svg class="svg1">
+    <circle
+        cx="50"
+        cy="50"
+        r="50"
+        fill="red"
+        stroke="blue"
+    ></circle>
+    <circle
+        cx="150"
+        cy="50"
+        r="50"
+        fill="yellow"
+        stroke="blue"
+    ></circle>
+    <rect
+        class="red1"
+        x="100"
+        y="100"
+        width="300"
+        height="200"
+        fill="none"
+        stroke="blue"
+        stroke-width="3"
+    ></rect>
+    <rect
+        class="red2"
+        x="150"
+        y="150"
+        width="300"
+        height="200"
+        stroke-width="3"
+    ></rect>
+    <line
+        x1="0"
+        y1="0"
+        x2="200"
+        y2="300"
+        stroke="blue"
+        stroke-width="2"
+    ></line>
+
+    <path
+        d="M 200 200 L150 150 l20 30"
+        fill="none"
+        stroke="red"
+        stroke-width="2"
+    ></path>
+</svg>    
+
+    
+</body>
+ 
+</html>
