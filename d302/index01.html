@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d3-02-1</title>
+    <link rel="stylesheet" href="./d302-mainstyle.css">
+
+</head>
+<body>
+
+    <!-- <h1>svg fundamentals</h1> -->
+
+<script>
+
+
+function person1(firstName, lastName) {
+    return {
+        first: firstName,
+        last: lastName,
+        greet: `hello there ${firstName} ${lastName}!`
+    }
+}
+
+console.log(person1('jane', 'doe'));
+
+
+
+
+
+
+const person2 = (firstName, lastName) => (
+    {
+        first: firstName,
+        last: lastName,
+        greet: `hello there ${firstName} ${lastName}!`
+    }
+)
+
+console.log(person2('jenifer', 'lawrence'));
+
+</script>
+
+    
+</body>
+ 
+</html>

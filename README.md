@@ -37,8 +37,58 @@ https://vizhub.com/forum/c/get-it-right/10
 <br>
 <br>
 
+<!-- ######################################### -->
+<!-- ######################################### -->
+<!-- ######################################### -->
+<!-- ######################################### -->
+<!-- ######################################### -->
 
+### d302 - SolLewitt Vanilla Js
 
+<details>
+<summary>notes for this folder/topic</summary>
+
+<br>
+
+### timeline for this topic: https://youtu.be/xkBheRZTkaw?t=8209
+
+<br>
+
+index01.html
+
+- sample ng pag return ng object in js, using traditional func and arrow func
+
+<br>
+
+index02.html
+
+- sample ng pag render ng svg element using DOM
+
+<br>
+
+index03.html
+
+- using for loop sa pag produce ng rectangle svg-element
+
+- vertical rect
+
+<br>
+
+index04.html
+
+- using mask
+
+- note, di ko natapos, pero pwede na din
+
+<br>
+
+</details>
+
+<!-- ######################################### -->
+<!-- ######################################### -->
+<!-- ######################################### -->
+<!-- ######################################### -->
+<!-- ######################################### -->
 
 ### d301 - svg fundamentals
 
