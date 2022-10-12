@@ -8,9 +8,10 @@ import './style-components/mainstyle.scss'
 const root1 = document.querySelector('#root1')
 const root2 = document.querySelector('#root2')
 const root3 = document.querySelector('#root3')
+const root4 = document.querySelector('#root4')
 
 const container1 = document.querySelector('.container1')
-container1.style.width = '90vw'
+container1.style.width = '98vw'
 container1.style.padding = '1rem'
 container1.style.backgroundColor = '#39ACFB'
 container1.style.color = 'blue'
@@ -18,6 +19,7 @@ container1.style.color = 'blue'
 const p1Content = 'hello from root1'
 const p2Content = 'hello from root2'
 const p3Content = 'hello from root3'
+const p4Content = 'hello from root4'
 
 function paragraph(pContent, appendTo) {
     const p1 = document.createElement('p')
@@ -33,6 +35,223 @@ function paragraph(pContent, appendTo) {
 paragraph(p1Content, root1)
 paragraph(p2Content, root2)
 paragraph(p3Content, root3)
+paragraph(p4Content, root4)
+
+
+
+import { select, range } from 'd3'
+
+
+
+
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ROOT4
+
+const r4SvgWidth = window.innerWidth
+const r4SvgHeight = window.innerHeight
+
+const r4Svg1 = select('#root4')
+    .append('svg')
+    .attr('width', r4SvgWidth)
+    .attr('height', r4SvgHeight)
+
+// horizontal rectangles:
+r4Svg1.append('g')
+    .selectAll('rect')
+    .data(range(60))
+    .join('rect')
+    .attr('y', (d) => d * 20)
+    .attr('width', (d) => r4SvgWidth)
+    .attr('height', (d) => 10)
+    .attr('mask', (d) => 'url(#circle-mask4)')
+
+// vertical rectangles:
+r4Svg1.append('g')
+    .selectAll('rect')
+    .data(range(60))
+    .join('rect')
+    .attr('x', (d) => d * 20)
+    .attr('width', (d) => 10)
+    .attr('height', (d) => r4SvgHeight)
+    .attr('mask', (d) => 'url(#circle-mask4-black)')
+
+
+
+const mask4 = r4Svg1.append('mask')
+    .attr('id', 'circle-mask4')
+
+
+mask4.append('rect')
+    .attr('width', r4SvgWidth)
+    .attr('height', r4SvgHeight)
+    .attr('fill', 'black')
+
+
+mask4.append('circle')
+    .attr('cx', r4SvgWidth / 2)
+    .attr('cy', r4SvgHeight / 2)
+    .attr('r', 200)
+    .attr('fill', 'white')
+
+
+const mask4Black = r4Svg1.append('mask')
+    .attr('id', 'circle-mask4-black')
+
+mask4Black.append('rect')
+    .attr('width', r4SvgWidth)
+    .attr('height', r4SvgHeight)
+    .attr('fill', 'white')
+
+mask4Black.append('circle')
+    .attr('cx', r4SvgWidth / 2)
+    .attr('cy', r4SvgHeight / 2)
+    .attr('r', 200)
+    .attr('fill', 'black')
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ROOT3
+
+const r3SvgWidth = window.innerWidth
+const r3SsvgHeight = window.innerHeight
+
+const r3Svg1 = select('#root3')
+    .append('svg')
+    .attr('width', r3SvgWidth)
+    .attr('height', r3SsvgHeight)
+
+r3Svg1.selectAll('rect')
+    .data(range(60))
+    .join('rect')
+    .attr('y', (d) => d * 20)
+    .attr('width', (d) => r3SvgWidth)
+    .attr('height', (d) => 10)
+    .attr('mask', (d) => 'url(#circle-mask3)')
+
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+
+
+
+
+
+
+
+
+
+
+
+
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ROOT2
+
+
+console.log('d3 select: ', select)
+
+const r2SvgWidth = window.innerWidth
+const r2SsvgHeight = window.innerHeight
+
+// const r2Svg1 = select('#root2').append('svg')
+// r2Svg1.attr('width', r2SvgWidth)
+// r2Svg1.attr('height', r2SsvgHeight)
+
+
+const r2Svg2 = select('#root2')
+    .append('svg')
+    .attr('width', r2SvgWidth)
+    .attr('height', r2SsvgHeight)
+
+
+const r2Count = 60
+const marks = []
+for(let i = 0; i < r2Count; i++) {
+    marks.push({
+        y: i * 20,
+        width: r2SvgWidth,
+        height: 10,
+        mask: 'url(#circle-mask2)'
+    })
+}
+console.log(marks);
+
+r2Svg2.selectAll('rect')
+    .data(marks)
+    .join('rect')
+    .attr('y', (d) => (d.y))
+    .attr('width', (d) => (d.width))
+    .attr('height', (d) => (d.height))
+    .attr('mask', (d) => (d.mask))
+
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+// ###############################################
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -173,8 +392,8 @@ generateJoke()
 // uuid test
 import { v4 as uuidV4 } from 'uuid'
 const uuidDiv1 = document.querySelector('#uuidDiv1')
-const p4Content = uuidV4()
-paragraph(p4Content, uuidDiv1)
+const p4Contentxxx = uuidV4()
+paragraph(p4Contentxxx, uuidDiv1)
 paragraph(uuidV4(), uuidDiv1)
 paragraph(uuidV4(), uuidDiv1)
 

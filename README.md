@@ -1,23 +1,26 @@
 
 
-# Data Visualization with D3 – Full Course for Beginners [2022]
+# Data Visualization with D3 – Full Course for Beginners [2022] - V0
 
+Dr. Curran Kelleher
 
 <details>
 <summary>notes</summary>
+
+https://github.com/chrisdevsandapps/d3-DrCurranKelleher-V0.git
 
 Learn data visualization with D3.js. D3 is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS.
 
 This course is an edited collection of live streams taught by Dr. Curran Kelleher. He is one of the top D3 instructors in the world. He has a Ph.D. in Computer Science, and has taught at universities including MIT.
 
 
-youtube link:
+### youtube link:
 
 - https://www.youtube.com/watch?v=xkBheRZTkaw
 
 
 
-forum and lesson link at vizhub:
+### forum and lesson link at vizhub:
 
 - https://vizhub.com/forum/t/get-it-right-in-black-white-index/110
 
@@ -25,9 +28,15 @@ forum and lesson link at vizhub:
 
 
 
-data visualization github resource page:
+### data visualization github resource page:
 
 - https://github.com/datavis-tech/awesome-dataviz-education
+
+
+
+### d3 github repo:
+
+- https://github.com/d3/d3
 
 </details>
 
@@ -45,6 +54,11 @@ data visualization github resource page:
 
     - para mag view sa browser ang content
 
+- yung ibang folders na may webpack config files, 
+
+    - see the script command in pacakge.json
+
+
 
 </details>
 
@@ -69,7 +83,7 @@ data visualization github resource page:
 <!-- ######################################### -->
 <!-- ######################################### -->
 
-<!-- ## d303 - SolLewitt D3.js
+## d303 - SolLewitt D3.js
 
 <details>
 <summary>notes for this folder/topic</summary>
@@ -82,12 +96,16 @@ data visualization github resource page:
 
 <br>
 
+see `./d303/index-d303.js` individual div#root per topic
+
 <br>
+
+
 <br>
 <br>
 <br>
 
-</details> -->
+</details>
 
 
 

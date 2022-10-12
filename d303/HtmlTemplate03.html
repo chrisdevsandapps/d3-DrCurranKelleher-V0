@@ -37,10 +37,12 @@
     <div id="btn1ID" class="buttonClass">1</div>
     <div id="btn2ID" class="buttonClass">2</div>
     <div id="btn3ID" class="buttonClass">3</div>
+    <div id="btn4ID" class="buttonClass">4</div>
 </div>
 <!-- #################################### --><br><br><br>
 <div class="container1">
     <!-- <h3>button toggle test</h3> -->
+    <div id="root4"></div>
     <div id="root3"></div>
     <div id="root2"></div>
     <div id="root1"></div>
@@ -90,13 +92,18 @@ btn1.classList.toggle('forButtonDisplayToggle')
 })
 const btn2 = document.querySelector('#btn2ID')
 btn2.addEventListener('click', function() {
-    document.querySelector('#root2').classList.toggle('forDisplayToggle')
-    btn2.classList.toggle('forButtonDisplayToggle')
+document.querySelector('#root2').classList.toggle('forDisplayToggle')
+btn2.classList.toggle('forButtonDisplayToggle')
 })
 const btn3 = document.querySelector('#btn3ID')
 btn3.addEventListener('click', function() {
 document.querySelector('#root3').classList.toggle('forDisplayToggle')
 btn3.classList.toggle('forButtonDisplayToggle')
+})
+const btn4 = document.querySelector('#btn4ID')
+btn4.addEventListener('click', function() {
+document.querySelector('#root4').classList.toggle('forDisplayToggle')
+btn4.classList.toggle('forButtonDisplayToggle')
 })
 
 
